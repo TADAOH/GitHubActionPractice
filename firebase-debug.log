@@ -1,0 +1,53 @@
+[debug] [2025-04-22T16:36:42.328Z] ----------------------------------------------------------------------
+[debug] [2025-04-22T16:36:42.335Z] Command:       C:\Program Files\nodejs\node.exe D:\Chula\year12\SE\assignment\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-22T16:36:42.337Z] CLI Version:   14.2.0
+[debug] [2025-04-22T16:36:42.337Z] Platform:      win32
+[debug] [2025-04-22T16:36:42.338Z] Node Version:  v22.8.0
+[debug] [2025-04-22T16:36:42.339Z] Time:          Tue Apr 22 2025 23:36:42 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-22T16:36:42.339Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-22T16:36:42.906Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-22T16:36:42.907Z] > authorizing via signed-in user (6733076021@student.chula.ac.th)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-22T16:36:42.939Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-22T16:36:42.939Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-22T16:36:42.940Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-22T16:36:42.965Z] [hub] writing locator at C:\Users\LENOVO\AppData\Local\Temp\hub-githubactionpractice-50c6d.json
+[debug] [2025-04-22T16:36:43.014Z] Checked if tokens are valid: true, expires at: 1745343089037
+[debug] [2025-04-22T16:36:43.015Z] Checked if tokens are valid: true, expires at: 1745343089037
+[debug] [2025-04-22T16:36:43.018Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-50c6d/sites 
+[debug] [2025-04-22T16:36:43.926Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-50c6d/sites 200
+[debug] [2025-04-22T16:36:43.927Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-50c6d/sites {"sites":[{"name":"projects/githubactionpractice-50c6d/sites/githubactionpractice-50c6d","defaultUrl":"https://githubactionpractice-50c6d.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-22T16:36:43.927Z] Checked if tokens are valid: true, expires at: 1745343089037
+[debug] [2025-04-22T16:36:43.927Z] Checked if tokens are valid: true, expires at: 1745343089037
+[debug] [2025-04-22T16:36:43.928Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-50c6d/webApps/-/config [none]
+[debug] [2025-04-22T16:36:44.914Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-50c6d/webApps/-/config 200
+[debug] [2025-04-22T16:36:44.914Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-50c6d/webApps/-/config {"projectId":"githubactionpractice-50c6d","storageBucket":"githubactionpractice-50c6d.firebasestorage.app","apiKey":"AIzaSyC550r4FSR0QG69Aw6kNvXZrum_0faVs4E","authDomain":"githubactionpractice-50c6d.firebaseapp.com","messagingSenderId":"491920549474"}
+[debug] [2025-04-22T16:36:44.924Z] Checked if tokens are valid: true, expires at: 1745343089037
+[debug] [2025-04-22T16:36:44.925Z] Checked if tokens are valid: true, expires at: 1745343089037
+[debug] [2025-04-22T16:36:44.925Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-50c6d [none]
+[debug] [2025-04-22T16:36:45.356Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-50c6d 200
+[debug] [2025-04-22T16:36:45.356Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-50c6d {"projectId":"githubactionpractice-50c6d","projectNumber":"491920549474","displayName":"GitHubActionPractice","name":"projects/githubactionpractice-50c6d","resources":{"hostingSite":"githubactionpractice-50c6d"},"state":"ACTIVE","etag":"1_6aaffc1b-f144-4925-a519-6c9acb49ba73"}
+[info] i  hosting[githubactionpractice-50c6d]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[githubactionpractice-50c6d]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-22T16:36:45.438Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:9999 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:16:36:57 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
